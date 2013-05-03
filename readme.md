@@ -12,3 +12,4 @@ These are custom modules I've written for sevabot (a skype bot written in python
 
 **insult.py** -- gets an insult from adnissen.com/insults
 
+**ts.py** -- searches for a tweet
