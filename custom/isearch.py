@@ -8,7 +8,9 @@ progname = 'imagesearch'
 def main(args):
 	s = ""
 	for arg in args:
-		s+=arg
+		s+=arg + "_"
+	if s[-1:] == "_":
+		s = s[:-1]
 	print "http://mebe.co/" + s + ".jpg"
 
 if __name__ == '__main__':
